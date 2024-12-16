@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: lightblue;
+}
+
+.container__cards-wrapper {
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 76px 165px 120px;
+    
+}
+
+.container__card{
+    background-color: #FFFFFF;
+    width: 1110px;
+    height: 152px;
+    display: flex;
+    border-radius: 10px;
+    border: 3px solid none;
+    justify-content: space-between;   
+    padding: 32px 40px; 
+
+}
+
+.card-start{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.job-details{
+    width: 237px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.job-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tags{
+    width: 341px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.job-title{
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    color: #2B3939;
+}
+
+.photosnap{
+    font-size: 18px;
+    color: #5CA5A5;
+    letter-spacing: 0px;
+}
+
+.new-badge {
+    width: 51px;
+    background-color: #5CA5A5;
+    color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.featured-badge{
+    width: 79px;
+    background-color: #2B3939;
+    color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.card-info{
+    font-size: 18px;
+    font-weight: 500;
+    color: #7C8F8F;
+}
+
+.tag{
+    background-color: #5CA5A5;
+    border-radius: 3px;
+    text-align: center;
+    /* height: 32px; */
+}
+
+.front-tag{
+    width: 81px;    
+}
+
+.senior-tag {
+    width: 62px;
+}
+
+.html-tag{
+    width: 56px;
+}
+
+.css-tag{
+    width: 44px;
+}
+
+.java-tag{
+    width: 91px;
+}
+
+.header-img{
+    width: 1440px;
+    text-align: center;
+}
